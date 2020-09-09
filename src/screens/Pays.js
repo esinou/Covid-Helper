@@ -113,12 +113,12 @@ class PaysScreen extends React.Component {
         return (
             <View style={styles.global}>
                 {this.renderCases()}
-                <AdMobBanner
+                {/* <AdMobBanner
                     style={styles.bottomBanner}
                     bannerSize="fullBanner"
-                    adUnitID="ca-app-pub-8826340269904242/7931673480"
+                    adUnitID="***"
                     servePersonalizedAds
-                    onDidFailToReceiveAdWithError={(error) => console.log(error)} />
+                    onDidFailToReceiveAdWithError={(error) => console.log(error)} /> */}
             </View>
         );
     }

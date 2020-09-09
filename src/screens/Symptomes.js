@@ -48,12 +48,12 @@ class SymptomesScreen extends React.Component {
                         <View style={{width: '100%', height: '50%'}}/>
                     </ScrollView>
                 </View>
-                <AdMobBanner
+                {/* <AdMobBanner
                     style={styles.bottomBanner}
                     bannerSize="fullBanner"
-                    adUnitID="ca-app-pub-8826340269904242/3189115710"
+                    adUnitID="***"
                     servePersonalizedAds
-                    onDidFailToReceiveAdWithError={(error) => console.log(error)} />
+                    onDidFailToReceiveAdWithError={(error) => console.log(error)} /> */}
             </View>
         );
     }
